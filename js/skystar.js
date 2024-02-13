@@ -137,7 +137,7 @@ window.addEventListener('load',init);
       setTimeout(function(){
         textone.innerHTML = '--Aresene Roelatriper';
         texttwo.innerHTML = 'Fin.';
-        textthree.innerHTML = '想要更多？尝试修改域名吧！';
+        textthree.innerHTML = '想要更多？尝试修改域名/看源码吧！';
       },94000)
       setTimeout(function(){
         textone.innerHTML = '熟悉吗？这首歌叫Dear moments';
