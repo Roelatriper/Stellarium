@@ -1,0 +1,26 @@
+#clock {
+      z-index: 100;
+      position: absolute;
+      color: white;
+      bottom: 85px;
+      right: 105px;
+      font-size: 88px;
+      font-weight: 0;
+    }
+    
+    #date {
+      z-index: 101;
+      position: absolute;
+      color: white;
+      bottom: 45px;
+      right: 65px;
+      font-size: 48px;
+    }
+    
+    #seconds {
+      bottom: 100px;
+      position: absolute;
+      z-index: 102;
+      right: 65px;
+      font-size: 32px;
+    }
