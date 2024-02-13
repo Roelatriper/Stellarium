@@ -23,18 +23,18 @@ var words=[
     '半缘修道半缘君',
     '三笑徒然当一痴',
     '人生若只如初见',
-    '我余光中都是你',
+    '我余生中都是你',
     '人生自是有情痴',
-    '此恨不关风与月',
-    '因为你，我多少适应了这个世界',
-    '春蚕到死丝方尽',
-    '蜡炬成灰泪始干',
-    '今夜何夕',
-    '见此良人',
-    '愿我如星君如月',
-    '夜夜流光相皎洁',
-    '情不所起',
-    '一往而深',
+    // '此恨不关风与月',
+    // '理解是爱的另一个名字。',
+    // '春蚕到死丝方尽',
+    // '蜡炬成灰泪始干',
+    // '今夜何夕',
+    // '见此良人',
+    // '愿我如星君如月',
+    // '夜夜流光相皎洁',
+    // '情不所起',
+    // '一往而深',
     '玲珑骰子安红豆',
     '入骨相思知不知',
     '多情只有春庭月',
@@ -61,8 +61,9 @@ var words=[
     '皓腕凝霜雪',
     '众里嫣然通一顾',
     '人间颜色如尘土',
-    '若非群玉山头见',
-    '会向瑶台月下逢',
+    '得成比目何辞死，愿作鸳鸯不羡仙',
+    '借问吹箫向紫烟，曾经学舞度芳年',
+    '谁家玉笛藏彩蛋',
     '沉鱼落雁鸟惊喧',
     '羞花闭月花愁颤',
     '解释春风无限恨',
@@ -80,7 +81,7 @@ function init(){
     let word = document.createElement('div');
         word.innerText = w;
         word.classList.add('word');
-        word.style.color = '#BAABDA';
+        word.style.color = '#baabda91';
         word.style.fontFamily = '楷体';
         word.style.fontSize = '20px'
         word_box.classList.add('word-box');
@@ -97,25 +98,45 @@ function init(){
     container.appendChild(f);
 }
 window.addEventListener('load',init);
-let textone = document.querySelector('.textone').querySelector('h1');
+    let textone = document.querySelector('.textone').querySelector('h1');
       let texttwo = document.querySelector('.texttwo').querySelector('h1');
       let textthree = document.querySelector('.textthree').querySelector('h1');
 
+
       setTimeout(function(){
-        textone.innerHTML = '今晚，群星在你手中。';
+        textone.innerHTML = '『今夜、星は君の手の中にある。';
+        texttwo.innerHTML = '　　今夜，群星在你的手中。　』';
+        textthree.innerHTML = '      　　　 　　 --Aresene';
           textone.style.color = '#E8F9FD';
           textone.style.fontFamily = '楷体'
           texttwo.style.color = '#E8F9FD';
           texttwo.style.fontFamily = '楷体'
           textthree.style.color = '#E8F9FD';
           textthree.style.fontFamily = '楷体'
-          texttwo.innerHTML = '';
+      },14000)
+      setTimeout(function(){
+        textone.innerHTML = '于是我想起这样一句话：';
+        texttwo.innerHTML = '​请允许我成为你的夏季';
+        textthree.innerHTML = '当夏日飞逝而去时';
       },28000)
       setTimeout(function(){
-        textone.innerHTML = '从前从前,有个人爱你很久';
-        texttwo.innerHTML = '但偏偏，风渐渐';
-        textthree.innerHTML = '把距离吹的好远';
-      },112500)
+        textone.innerHTML = '一个小星空。';
+        texttwo.innerHTML = '​虽然我不在你的身边，';
+        textthree.innerHTML = '但请收下这份礼物。';
+      },42000)
+      setTimeout(function(){
+        textone.innerHTML = '新年快乐，';
+        texttwo.innerHTML = '​希望我们一切都好。';
+        textthree.innerHTML = '情人节快乐。';
+      },56000)
+      setTimeout(function(){
+        textone.innerHTML = '另，我藏了点彩蛋';
+        texttwo.innerHTML = '​找到的人可以私发';
+        textthree.innerHTML = '以获取神秘礼物！:)';
+      },80000)
+      setTimeout(function(){
+        textone.innerHTML = '--Aresene Roelatriper';
+        texttwo.innerHTML = 'Fin.';
+        textthree.innerHTML = '想要更多？尝试修改域名吧！';
+      },94000)
 
-
- 
