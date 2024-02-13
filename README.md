@@ -4,6 +4,7 @@
 
 食用说明：
 
-skystar.html 进入主页面，还没做主页和博客选择，所以见谅！
+skystar.html 进入[主页面](https://blog.monari.cn/skystar.html)，还没做主页和博客选择，所以见谅！
 
 因为用了替换h1，内容脚本在skystar.js，可以深挖代码！
+
