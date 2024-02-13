@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    perspective: 1300px;
+    background-color: linear-gradient(to right, rgb(255, 2, 137), rgba(255, 230, 0, 0.904));
+}
+.textabove{
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%);
+}
+.textabove h1{
+    color:skyblue;
+    /* text-align: end; */
+    background-color: linear-gradient(to right, rgb(255, 2, 137), rgba(255, 230, 0, 0.904));;
+    
+}
+.texttwo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%);
+}
+.textone {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translateX(-50%);
+}
+.textzero {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translateX(-50%);
+}
+.textthree {
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translateX(-50%);
+}
+:root {
+    --margin-top: 0;
+    --margin-left: 0;
+    --animation-duration: 0s;
+    --animation-delay: 0s;
+}
+div {
+    transform-style: preserve-3d;
+}
+.word-box,
+.word-box .word{
+position: absolute;
+animation: rotY 0s linear infinite;
+animation-duration: var(--animation-duration);
+animation-delay: var(--animation-delay);
+}
+.word-box{
+    margin-top: var(--margin-top);
+}
+.word-box .word{
+    margin-left: var(--margin-left);
+}
+.word-box .word {
+    animation-duration: reverse;
+}
+@keyframes rotY {
+    to{
+        transform: rotateY(360deg);
+    }
+    
+}
+
+.filter {
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	background:#fe5757;
+	animation:colorChange 30s ease-in-out infinite;
+	animation-fill-mode:both;
+	mix-blend-mode:overlay;
+}
+@keyframes colorChange {
+	0%,100% {
+	opacity:0;
+}
+50% {
+	opacity:.9;
+}
+}.landscape {
+	position:absolute;
+	bottom:0px;
+	left:0;
+	width:100%;
+	height:100%;
+	/*background-image:url(img/Trees-Landscape-Silhouette.png);
+	*/
+/* background-image:url('img/xkbg.png'); */
+	background-size:1000px 250px;
+	background-repeat:repeat-x;
+	background-position:center bottom;
+}
