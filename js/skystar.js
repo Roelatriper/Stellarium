@@ -137,10 +137,11 @@ window.addEventListener('load',init);
       setTimeout(function(){
         textone.innerHTML = '--Aresene Roelatriper';
         texttwo.innerHTML = 'Fin.';
-        textthree.innerHTML = '想要更多？尝试修改域名/看源码吧！';
+        textthree.innerHTML = '想要更多？尝试修改域名吧！';
       },94000)
-      setTimeout(function(){
-        textone.innerHTML = '熟悉吗？这首歌叫Dear moments';
-        texttwo.innerHTML = '那首我未曾弹唱之歌。';
-        textthree.innerHTML = '彩蛋：时间流逝吧，你是如此残忍。';
-      },140000)
+
+      function ScreenWidth() {      //获取屏幕尺寸，判断PC端或移动端
+        if (/phone|pad|pod|iPhone|iPod|ios|iPad|Android|Fennec|BlackBerry|Mobile|IEMobile|MQQBrowser|JUC|Fennec|WosBrowser|BrowserNG|WebOS|Symbian|Windows Phone/i.test(navigator.userAgent)) {
+          alert("注意！手机端未做完美适配！请移步电脑以获得最佳体验！\n第一进入会有些卡，请等待并多次刷新！\n那么，请享受吧！");
+          }
+      }
