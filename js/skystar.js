@@ -139,4 +139,8 @@ window.addEventListener('load',init);
         texttwo.innerHTML = 'Fin.';
         textthree.innerHTML = '想要更多？尝试修改域名吧！';
       },94000)
-
+      setTimeout(function(){
+        textone.innerHTML = '熟悉吗？这首歌叫Dear moments';
+        texttwo.innerHTML = '那首我未曾弹唱之歌。';
+        textthree.innerHTML = '彩蛋：时间流逝吧，你是如此残忍。';
+      },140000)
