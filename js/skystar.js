@@ -137,8 +137,13 @@ window.addEventListener('load',init);
       setTimeout(function(){
         textone.innerHTML = '--Aresene Roelatriper';
         texttwo.innerHTML = 'Fin.';
-        textthree.innerHTML = '想要更多？尝试修改域名吧！';
+        textthree.innerHTML = '想要更多？尝试修改域名/查看源码吧！';
       },94000)
+      setTimeout(function(){
+        textone.innerHTML = '熟悉吗？这首歌叫Days Of Love';
+        texttwo.innerHTML = '那首未曾弹唱之歌。 ';
+        textthree.innerHTML = '彩蛋：时间流逝吧，你是如此残忍——';
+      },110000)
 
       function ScreenWidth() {      //获取屏幕尺寸，判断PC端或移动端
         if (/phone|pad|pod|iPhone|iPod|ios|iPad|Android|Fennec|BlackBerry|Mobile|IEMobile|MQQBrowser|JUC|Fennec|WosBrowser|BrowserNG|WebOS|Symbian|Windows Phone/i.test(navigator.userAgent)) {
